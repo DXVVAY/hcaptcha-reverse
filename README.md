@@ -102,3 +102,9 @@ async function encrypt(req, data) {
   return await hsw(req, {"href": fill_zero(data.length) }, data);
 }
 ```
+
+# Credits
+
+* **DEXV** - *Shit head (retarded)* - [DEXV](https://dexv.lol) - Main Author
+* **Ab5** - *Arab Bomber* - [Body](https://t.me/bodyalhoha) - Taught me most of the stuff i know
+* **Dort** - *Cool Guy* - [Dort](https://t.me/motionData) - Helped with some stuff
