@@ -21,7 +21,7 @@ The solver uses multiple uhq real device fingerprints for a good result
 
 ## String integrity check
 
-[This script](https://github.com/DXVVAY/hcaptcha-reverse/scripts/str_integrity.py) is used to "encode" somes event data:
+[This script](https://github.com/DXVVAY/hcaptcha-reverse/blob/main/scripts/str_integrity.py) is used to "encode" somes event data:
     - webgl vendor + renderer
     - browser performance
     - browser timezone
@@ -29,11 +29,11 @@ The solver uses multiple uhq real device fingerprints for a good result
 I think it's used to verify the data is authentic / non duplicated (output is different each time you run the function)
 
 ## Stamp 
-[This script](https://github.com/DXVVAY/hcaptcha-reverse/scripts/stamp.py) is used to generate the stamo value in the fingerprint.
+[This script](https://github.com/DXVVAY/hcaptcha-reverse/blob/main/scripts/stamp.py) is used to generate the stamo value in the fingerprint.
 
 ## Event hashes
 
-[This script](https://github.com/DXVVAY/hcaptcha-reverse/scripts/hash.py) is used with custom seed (`5575352424011909552`) to create unique hash of 15 unique properties such as:
+[This script](https://github.com/DXVVAY/hcaptcha-reverse/blob/main/scripts/hash.py) is used with custom seed (`5575352424011909552`) to create unique hash of 15 unique properties such as:
     - Html DOM
     - Webgl properties
     - Css properties
@@ -57,9 +57,9 @@ But we are hooking the encryption function in the WASM to inject a custom payloa
 
 ### Hsw Fingerprint
 
-[This](https://github.com/DXVVAY/hcaptcha-reverse/archive/de80b1b/fp.json) is a hsw fingerprint decrypted
+[This](https://github.com/DXVVAY/hcaptcha-reverse/blob/main/archive/de80b1b/fp.json) is a hsw fingerprint decrypted
 
-All the events are listed [here](https://github.com/DXVVAY/hcaptcha-reverse/hashes) before and after they are hashed
+All the events are listed [here](https://github.com/DXVVAY/hcaptcha-reverse/blob/main/hashes) before and after they are hashed
 
 ## Sandbox
 
