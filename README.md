@@ -30,7 +30,7 @@ The solver uses multiple uhq real device fingerprints for a good result
 I think it's used to verify the data is authentic / non duplicated (output is different each time you run the function)
 
 ## Stamp 
-[This script](https://github.com/DXVVAY/hcaptcha-reverse/blob/main/scripts/stamp.py) is used to generate the stamo value in the fingerprint.
+[This script](https://github.com/DXVVAY/hcaptcha-reverse/blob/main/scripts/stamp.py) is used to generate the stamp value in the fingerprint.
 
 ## Event hashes
 
