@@ -106,5 +106,5 @@ async function encrypt(req, data) {
 # Credits
 
 * **DEXV** - *Shit head (retarded)* - [DEXV](https://dexv.lol) - Main Author
-* **Ab5** - *Arab Bomber* - [Body](https://t.me/bodyalhoha) - Taught me most of the stuff i know
+* **Ab5** - *Arab Bomber* - [Body](http://ab5.pro/) - Taught me most of the stuff i know
 * **Dort** - *Cool Guy* - [Dort](https://t.me/motionData) - Helped with some stuff
