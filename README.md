@@ -22,6 +22,7 @@ The solver uses multiple uhq real device fingerprints for a good result
 ## String integrity check
 
 [This script](https://github.com/DXVVAY/hcaptcha-reverse/blob/main/scripts/str_integrity.py) is used to "encode" somes event data:
+
     - webgl vendor + renderer
     - browser performance
     - browser timezone
@@ -34,6 +35,7 @@ I think it's used to verify the data is authentic / non duplicated (output is di
 ## Event hashes
 
 [This script](https://github.com/DXVVAY/hcaptcha-reverse/blob/main/scripts/hash.py) is used with custom seed (`5575352424011909552`) to create unique hash of 15 unique properties such as:
+
     - Html DOM
     - Webgl properties
     - Css properties
