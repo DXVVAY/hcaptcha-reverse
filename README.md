@@ -111,3 +111,4 @@ async function encrypt(req, data) {
 * **KEK** - *Sexy Guy* - [kek](https://t.me/crakcentral) - Reversed the events
 * **Ab5** - *Arab Bomber* - [AB5](http://ab5.pro/) - Taught me most of the stuff i know
 * **Dort** - *Cool Guy* - [Dort](https://t.me/motionData) - Helped with some stuff
+* **Vichy** - *French* - [Vichy](https://t.me/Vichy1337) - Readme Template
