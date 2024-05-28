@@ -4,7 +4,7 @@
     <img src="https://github.com/DXVVAY/hCaptcha-Text-Solver/assets/89728480/ca479b71-e143-4894-890f-10aec6e63e61" alt="Logo" width="120" height="120">
   </a>
 
-  <h3 align="center">hCaptcha N data reverse engineered</h3>
+  <h3 align="center">hCaptcha HSW(Human Sweat Work) reversed</h3>
 
   <p align="center">
     <a href="https://discord.gg/fCaptcha">Discord</a>
