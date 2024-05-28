@@ -1,0 +1,16 @@
+Event: 3503035011
+Encrypted: zUlcMYuYSWvmLWiTJJFXCp52z=gYSWz3,2,7,UCRWOBZWYIVAI
+Decrypted:Google Inc. (Intel)
+
+Event: 3503035011
+Encrypted: kWITJInNyxLmAKRHMYUiVJVeMYUiSvVNZthYUPajMLGiSvVNZtnKMLajMLI0TI1KR==QRzUUMxKCMYUSc09VnfBzQYUCMYUYD09VnfBdMYUSRqnNZKV3MFFTMWITJoaTEWadMWGjQ1yT,1,4b,YKDANELGWPDGP
+Decrypted:ANGLE (Intel, Intel(R) UHD Graphics (0x00008A56) Direct3D11 vs_5_0 ps_5_0, D3D11)
+
+Event: 3349438585
+Encrypted: GzhJWcGJtJFzWyvDHDhhxeRD,c,2,ZIQZDZPTOXMMY
+Decrypted:Europe/Stockholm
+
+Event: 2979183504
+Encrypted: xUDoxmtowmZmxgjN,1,4,TTMVBESPZEEOV
+Decrypted:186158139033
+
