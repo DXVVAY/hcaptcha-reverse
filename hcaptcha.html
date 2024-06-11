@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <script src="./archive/3b548ee/custom_hsw.js"></script>
+        <script>
+            function encryption() {
+                var token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmIjowLCJzIjoyLCJ0IjoidyIsImQiOiIxMWV0QytPYTNhVWdHd2M3TFF1Tms2aUgvWmQvMm1LeUFFdllZRDBKOGdUcE4yK2xEcXBNZmxuVFpnY2NBQUlaUW9GeVRpb3E3WmNyTkthc2xHOVhkKzFLK3FXVUp2eFFqUmVLeXhWSkZsd1NVOGJTSll0VkN2WnZaTlRmbURhbGliY2MzNUpIbEl0bE92d1ZZVkJTRzU4MFZrMG9CT254cHV3MFdGbWJtejRjam9IVlF0S05BZGpCOW9ieUFob1R6elE1enpDSmhnc042SWE5MDVobDZXWlN3WHRwSzFlOEVmd2ZzUnNpcXBIeEJQQ2MwOVo2Q2hBN1lOU1FoVFdlIiwibCI6Imh0dHBzOi8vbmV3YXNzZXRzLmhjYXB0Y2hhLmNvbS9jL2Y5MjJhNDEiLCJpIjoic2hhMjU2LVF0bWtBUnJEYXVTRDZPUExTN0t6Z3B1V3Z6WnJ2QndPS3JRTlRYM3Jra0E9IiwiZSI6MTcxNTYxNjY4MiwibiI6ImhzdyIsImMiOjEwMDB9.kO00qLSV_ogCVPzD5JnorvbSLyjU7gBHdtXhKgFdBuQ";
+                var text = document.getElementById('text').value;
+            
+                var start = new Date().getTime();
+            
+                encrypt(token, text).then(result => {
+                  var end = new Date().getTime();
+                  var time = end - start;
+            
+                  console.log(result);
+                  document.getElementById('result').innerHTML = 'Result: ' + result + '<br>Time: ' + time + 'ms<br>Length: ' + result.length;
+                });
+                }
+        
+            function dumper() {
+                var token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmIjowLCJzIjoyLCJ0IjoidyIsImQiOiIxMWV0QytPYTNhVWdHd2M3TFF1Tms2aUgvWmQvMm1LeUFFdllZRDBKOGdUcE4yK2xEcXBNZmxuVFpnY2NBQUlaUW9GeVRpb3E3WmNyTkthc2xHOVhkKzFLK3FXVUp2eFFqUmVLeXhWSkZsd1NVOGJTSll0VkN2WnZaTlRmbURhbGliY2MzNUpIbEl0bE92d1ZZVkJTRzU4MFZrMG9CT254cHV3MFdGbWJtejRjam9IVlF0S05BZGpCOW9ieUFob1R6elE1enpDSmhnc042SWE5MDVobDZXWlN3WHRwSzFlOEVmd2ZzUnNpcXBIeEJQQ2MwOVo2Q2hBN1lOU1FoVFdlIiwibCI6Imh0dHBzOi8vbmV3YXNzZXRzLmhjYXB0Y2hhLmNvbS9jL2Y5MjJhNDEiLCJpIjoic2hhMjU2LVF0bWtBUnJEYXVTRDZPUExTN0t6Z3B1V3Z6WnJ2QndPS3JRTlRYM3Jra0E9IiwiZSI6MTcxNTYxNjY4MiwibiI6ImhzdyIsImMiOjEwMDB9.kO00qLSV_ogCVPzD5JnorvbSLyjU7gBHdtXhKgFdBuQ";
+                var text = document.getElementById('text').value;
+                
+                var start = new Date().getTime();
+                
+                dump(token).then(result => {
+                    var end = new Date().getTime();
+                    var time = end - start;
+
+                    var res = JSON.parse(result);
+                    var json = JSON.stringify(res, null, 2);
+                    var htmll = json.replace(/\n/g, '<br>').replace(/ /g, '&nbsp;');
+                    console.log(json);
+                    document.getElementById('result').innerHTML = 'Time: ' + time + 'ms<br>Length: ' + result.length + '<br><br>Result: ' + htmll;
+                }).catch(error => {
+                    console.error(error);
+                    dumper();
+                });
+            }
+          </script>
+    </head>
+    <body>
+        <input type="text" id="text" placeholder="text">
+        <button onclick="encryption()">Encrypt</button>
+        <button onclick="dumper()">Dump</button>
+        <p id="result"></p>
+    </body>
+</html>
