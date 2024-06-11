@@ -107,7 +107,7 @@ sandbox: function (ptr) {
     return len;
 },
 dump: function (addr) {
-    let buffer = new Uint8Array(G.$a.buffer , addr, G.$a.buffer .byteLength - addr);
+    let buffer = new Uint8Array(MEMORYBUFFER , addr, MEMORYBUFFER .byteLength - addr);
     let term = buffer.indexOf(0);
     let decoded = new TextDecoder().decode(buffer.subarray(0, term));
     dumped_hsw = decoded;
