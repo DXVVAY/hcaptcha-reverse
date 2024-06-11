@@ -1,16 +1,16 @@
-Event: 3503035011
-Encrypted: zUlcMYuYSWvmLWiTJJFXCp52z=gYSWz3,2,7,UCRWOBZWYIVAI
-Decrypted:Google Inc. (Intel)
+Event: G
+Encrypted: S1KuklCMyuIu3xmLwiTjQHhEwVnBocVR,9,4,BKHUUIAEJEBFU
+Decrypted:Google Inc. (NVIDIA)
 
-Event: 3503035011
-Encrypted: kWITJInNyxLmAKRHMYUiVJVeMYUiSvVNZthYUPajMLGiSvVNZtnKMLajMLI0TI1KR==QRzUUMxKCMYUSc09VnfBzQYUCMYUYD09VnfBdMYUSRqnNZKV3MFFTMWITJoaTEWadMWGjQ1yT,1,4b,YKDANELGWPDGP
-Decrypted:ANGLE (Intel, Intel(R) UHD Graphics (0x00008A56) Direct3D11 vs_5_0 ps_5_0, D3D11)
+Event: A
+Encrypted: iTJ2l3X18FMDJTJwiTJIl3X18FMwiTJK9GerlmeZOUMxajMlgcMkbDMwaTMMHjMpajMlEjN1aDMyUsTAREMyUsTrxUd4l2AwiTJUJ0TK90RwiTJOQlQPp0ThNkMlajMlCEvNJ1sKNjsxETKw,6,9,CHSOZVOCBZIAS
+Decrypted:ANGLE (NVIDIA, NVIDIA GeForce GTX 1650 (0x00001F82) Direct3D11 vs_5_0 ps_5_0, D3D11)
 
-Event: 3349438585
-Encrypted: GzhJWcGJtJFzWyvDHDhhxeRD,c,2,ZIQZDZPTOXMMY
+Event: E
+Encrypted: JlX2z1nmeNRWzx1mANh2dgJt,12,b,TNGVBSAXLZKOP
 Decrypted:Europe/Stockholm
 
-Event: 2979183504
-Encrypted: xUDoxmtowmZmxgjN,1,4,TTMVBESPZEEOV
-Decrypted:186158139033
+Event: 2
+Encrypted: mdo==gm3gZm3Ydnw,11,d,AKZPOMDOFNVKJ
+Decrypted:2783764038
 

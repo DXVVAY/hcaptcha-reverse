@@ -1,0 +1,16 @@
+Event: G
+Encrypted: QtEUilcmyUcU1pMLwiTJOZNDunhBoU1Q,7,4,HICFHISDMNIBV
+Decrypted:Google Inc. (NVIDIA)
+
+Event: A
+Encrypted: iTJBLKVRzLTwiTJoeUSWFLVOnKMLAjML4UQULLURnTUXeTkwiTJjz2x18FMdJTJwiTJpz2x18FMwiTJRzxzyB3zZeVMXAjMLgCMrBdMwATMThjMpAjMLejn1AdMyUCVHteMyUCVynLYLBNcw,d,69,KLZXENLDKIZDE
+Decrypted:ANGLE (NVIDIA, NVIDIA GeForce GTX 1650 (0x00001F82) Direct3D11 vs_5_0 ps_5_0, D3D11)
+
+Event: E
+Encrypted: Z3cwfnZGJTJUVhcKxWaw1mbG,1,1,HFKQHOLKLHPKS
+Decrypted:Europe/Stockholm
+
+Event: 2
+Encrypted: m3Gzm3ydNWmdO==G,15,3,YGUVIMUUSUBWD
+Decrypted:2783764038
+
